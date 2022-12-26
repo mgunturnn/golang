@@ -291,7 +291,7 @@ var db *sql.DB
 var err error
 
 func InitDB() {
-	db, err = sql.Open("mysql", "root:@tcp(127.0.0.1:3306)/userdb")
+	db, err = sql.Open("mysql", "edusaster@edusaster:Guntur12345*@tcp(edusaster.mysql.database.azure.com)/userdb")
 	if err != nil {
 		panic(err.Error())
 	}
